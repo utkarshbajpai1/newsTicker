@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+	<link rel="stylesheet" type="text/css" href="newsTicker.css">
+
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="newsTicker.js"></script>
+	<script type="text/javascript" src="accordion.js"></script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+<div id="news-container">
+<div class="news">
+<h1>Lorem ipsum dolor</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Ut varius tempus felis, et volutpat sapien facilisis vitae.
+Duis consectetur tempor auctor.</p>
+</div>
+<div class="news">
+<h1>Vivamus lobortis faucibus</h1>
+<p>Vivamus lobortis faucibus dolor eget imperdiet. Maecenas
+gravida aliquet quam in congue. Ut lobortis est a quam
+convallis tempus. Maecenas nunc neque, ullamcorper at
+ultricies sed, malesuada in sem. Morbi at nulla in nisi
+imperdiet tempus.</p>
+</div>
+<div class="news">
+<h1>Morbi sagittis</h1>
+<p>Morbi sagittis tincidunt diam, id luctus velit fermentum
+semper. Morbi faucibus, diam a sollicitudin consectetur,
+tellus neque molestie lacus, dictum tempor justo neque id
+erat. Maecenas ut nunc at magna convallis dapibus.
+Suspendisse neque mauris, elementum at congue non,
+elementum nec ante. Nunc nisi leo, placerat eu lobortis
+sed, dictum non nisi.</p>
+</div>
+<div class="news">
+<h1>Praesent bibendum lorem</h1>
+<p>Praesent bibendum lorem at nulla vestibulum semper. Nunc
+eget tristique erat. Morbi ut nibh id eros auctor blandit
+sed eget nisi. Ut ve</p>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+$('document').ready(function(){
+	$('#news-container').ticker({
+		delay:2000,
+		startWith:2
+	});
+
+});
+	
+</script>
+</body>
+
+
+</html>
